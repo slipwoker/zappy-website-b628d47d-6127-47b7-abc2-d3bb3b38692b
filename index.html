@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "b628d47d-6127-47b7-abc2-d3bb3b38692b";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "b628d47d-6127-47b7-abc2-d3bb3b38692b";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -374,7 +374,7 @@
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0523960566" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -851,7 +851,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0523960566';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -964,8 +964,8 @@
           </svg>
         </div>
         <div class="index-features-section__card-content">
-          <h3 class="index-features-section__card-title" style="cursor: text;">עוגיות שוקולד צ׳יפס&nbsp;</h3>
-          <p class="index-features-section__card-text" style="cursor: text;">מלאות שוקולד ואהבה</p>
+          <h3 class="index-features-section__card-title" >עוגיות שוקולד צ׳יפס&nbsp;</h3>
+          <p class="index-features-section__card-text" >מלאות שוקולד ואהבה</p>
         </div>
       </article><article class="index-features-section__card index-features-section__card--stagger-up" data-grid-item-index="1">
         <div class="index-features-section__card-image-area">
@@ -999,15 +999,15 @@
           </svg>
         </div>
         <div class="index-features-section__card-content">
-          <h3 class="index-features-section__card-title" style="">קראמבל במגוון טעמים&nbsp;</h3>
-          <p class="index-features-section__card-text" style="">טעמים לא צפויים שמפתיעים את החך –אוראו וסוכריות פיסטוק , שוקולד מריר עם מלח ים &nbsp;אטלנטי. חומרי גלם מובחרים שהופכים כל ביס למסע קולינרי קטן.</p>
+          <h3 class="index-features-section__card-title" >קראמבל במגוון טעמים&nbsp;</h3>
+          <p class="index-features-section__card-text" >טעמים לא צפויים שמפתיעים את החך –אוראו וסוכריות פיסטוק , שוקולד מריר עם מלח ים &nbsp;אטלנטי. חומרי גלם מובחרים שהופכים כל ביס למסע קולינרי קטן.</p>
         </div>
       </article>
 
       <!-- Card 3: Gift-Ready Joy -->
       <article class="index-features-section__card index-features-section__card--stagger-down" data-grid-item-index="3">
         <div class="index-features-section__card-image-area">
-          <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Beautifully wrapped cookie gift box with satin ribbon, kraft paper, and a handwritten tag, surrounded by scattered cookies and fresh flowers, Food &amp; Bakery" width="600" height="400" src="/assets/site-index-features-image-3.webp" alt="קופסת שי מהודרת של עוגיות מעוצבות" class="index-features-section__card-img" data-element-type="image" data-element-id="img-1783169562366-5tstmo2c2" style="">
+          <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Beautifully wrapped cookie gift box with satin ribbon, kraft paper, and a handwritten tag, surrounded by scattered cookies and fresh flowers, Food &amp; Bakery" width="600" height="400" src="/assets/site-index-features-image-3.webp" alt="קופסת שי מהודרת של עוגיות מעוצבות" class="index-features-section__card-img" data-element-type="image" data-element-id="img-1783169562366-5tstmo2c2" >
           <!-- Sprinkle accent -->
           <svg class="index-features-section__sprinkle index-features-section__sprinkle--top-left" data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="6" cy="6" r="2.5" fill="var(--primary)" opacity="0.7"></circle>
@@ -1018,7 +1018,7 @@
           </svg>
         </div>
         <div class="index-features-section__card-content">
-          <h3 class="index-features-section__card-title" style="">מארז הפתעה<br>אם 18 טעמים רנדומליים&nbsp;</h3>
+          <h3 class="index-features-section__card-title" >מארז הפתעה<br>אם 18 טעמים רנדומליים&nbsp;</h3>
           
         </div>
       </article>
@@ -1110,8 +1110,8 @@
         <div class="index-benefits-section__card-icon">
           <i class="fas fa-" data-element-type="icon" data-element-id="zappy-temp-icon-1783170011669-m4piindjb" data-icon-type="fontawesome" style="font-size: 29px; color: rgb(255, 122, 174);"></i>
         </div>
-        <h3 class="index-benefits-section__card-title" style="">אין משלוחים</h3>
-        <p class="index-benefits-section__card-text" style="">אין משלוחים&nbsp;<br>צריך לבוא לאסוף&nbsp;</p>
+        <h3 class="index-benefits-section__card-title" >אין משלוחים</h3>
+        <p class="index-benefits-section__card-text" >אין משלוחים&nbsp;<br>צריך לבוא לאסוף&nbsp;</p>
       </article>
 
       <!-- Card 2: For Birthdays -->
@@ -1141,7 +1141,7 @@
 
     <!-- Gift Box Mockup Image -->
     <div class="index-benefits-section__image-wrapper">
-      <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-1" data-context="A premium, festive gift box filled with an assortment of colorful gourmet cookies, tied with a satin ribbon, shot on a soft vanilla cream background with scattered crumbs and a warm bakery atmosphere." width="1200" height="600" src="/assets/site-index-benefits-image-1.webp" alt="קופסת שי מפנקת עם מבחר עוגיות גורמה בעבודת יד" class="index-benefits-section__gift-image" data-element-type="image" data-element-id="img-1783169562367-w6qh19akp" style="">
+      <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-1" data-context="A premium, festive gift box filled with an assortment of colorful gourmet cookies, tied with a satin ribbon, shot on a soft vanilla cream background with scattered crumbs and a warm bakery atmosphere." width="1200" height="600" src="/assets/site-index-benefits-image-1.webp" alt="קופסת שי מפנקת עם מבחר עוגיות גורמה בעבודת יד" class="index-benefits-section__gift-image" data-element-type="image" data-element-id="img-1783169562367-w6qh19akp" >
     </div>
 
   </div>
@@ -1211,7 +1211,7 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0523960566">0523960566</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1221,11 +1221,9 @@
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1260,7 +1258,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0523960566" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
