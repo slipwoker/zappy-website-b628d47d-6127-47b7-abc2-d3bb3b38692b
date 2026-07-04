@@ -7,73 +7,73 @@
 ## Pages
 
 ### בית
-https://cookie-girl-b628d47d.zappy5.app
+https://example.com
 מאפייה אונליין עם מבחר עוגיות ללא גלוטן בטעמים מנצחים. כל ביס מחזיר אתכם הביתה. הזמינו עכשיו ותיהנו ממתיקות אמיתית שמתאימה לכל רגע.
 
 ### סיפורי טעמים
-https://cookie-girl-b628d47d.zappy5.app/flavor-stories
+https://example.com/flavor-stories
 צללו לסיפורי הטעמים של העוגיות שלנו: שילובים מפתיעים, מתכונים סודיים והשראה מתוקה. גלו איך נולדות עוגיות ללא גלוטן ששוברות שגרה.
 
 ### מארזי מתנה
-https://cookie-girl-b628d47d.zappy5.app/gift-boxes
+https://example.com/gift-boxes
 הפתיעו את האהובים עם מארזי עוגיות ללא גלוטן בעיצוב מושקע. מתנה מושלמת לכל אירוע, עמוסה בטעמים שכולם אוהבים. הזמינו מארז חגיגי עוד היום.
 
 ### אודות
-https://cookie-girl-b628d47d.zappy5.app/about
+https://example.com/about
 הכירו את האנשים והתשוקה שמאחורי Cookie girl: מאפייה שמוקדשת לעוגיות ללא גלוטן באיכות שלא מתפשרת. בואו לשמוע איך הכל התחיל ולמה אנחנו אופים מהלב.
 
 ### צור קשר
-https://cookie-girl-b628d47d.zappy5.app/contact
+https://example.com/contact
 רוצים להזמין עוגיות ללא גלוטן לאירוע או סתם להגיד שלום? צרו קשר עם Cookie girl ונחזור אליכם עם חיוך מתוק. ההרפתקה הבאה שלכם מתחילה פה.
 
 ### Products
-https://cookie-girl-b628d47d.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Cookie girl
 
 ### Cart
-https://cookie-girl-b628d47d.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://cookie-girl-b628d47d.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://cookie-girl-b628d47d.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://cookie-girl-b628d47d.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://cookie-girl-b628d47d.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://cookie-girl-b628d47d.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Cookie girl
 
 ### Category
-https://cookie-girl-b628d47d.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Cookie girl
 
 ### תודה - Cookie girl
-https://cookie-girl-b628d47d.zappy5.app/thank-you
+https://example.com/thank-you
 Cookie girl - תודה - Cookie girl
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://cookie-girl-b628d47d.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://cookie-girl-b628d47d.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://cookie-girl-b628d47d.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -104,8 +104,8 @@ Food & Bakery
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://cookie-girl-b628d47d.zappy5.app/sitemap.xml
-- Robots: https://cookie-girl-b628d47d.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://cookie-girl-b628d47d.zappy5.app/llms-full.txt
-- Products (JSON): https://cookie-girl-b628d47d.zappy5.app/products.json
-- Products (Google Merchant RSS): https://cookie-girl-b628d47d.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
