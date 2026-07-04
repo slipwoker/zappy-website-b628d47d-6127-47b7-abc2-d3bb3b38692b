@@ -80,7 +80,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 1**
+
+### עוגיות קראמבל במלא סוגים
+https://example.com/product/avgyvt-krambl-bmla-svgym-w2ijbp
+- Price: 20.00 ILS
+- Availability: In stock
+- Image: https://example.com/assets/product-1783169490754-3s6q7.webp
 
 ---
 

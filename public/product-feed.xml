@@ -4,6 +4,18 @@
     <title>Cookie girl</title>
     <link>https://example.com</link>
     <description>Product feed for Cookie girl</description>
-    <lastBuildDate>Sat, 04 Jul 2026 12:49:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 12:55:17 GMT</lastBuildDate>
+    <item>
+      <g:id>f9eaaa95-dbd0-4a3d-97fa-64705c34fcaa</g:id>
+      <g:title>עוגיות קראמבל במלא סוגים</g:title>
+      <g:description>עוגיות קראמבל במלא סוגים</g:description>
+      <g:link>https://example.com/product/avgyvt-krambl-bmla-svgym-w2ijbp</g:link>
+      <g:image_link>https://example.com/assets/product-1783169490754-3s6q7.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>20.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Cookie girl</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

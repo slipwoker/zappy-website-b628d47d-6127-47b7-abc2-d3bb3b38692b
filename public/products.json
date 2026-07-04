@@ -1,8 +1,31 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-04T12:49:11.891Z",
+  "generated_at": "2026-07-04T12:55:17.020Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "f9eaaa95-dbd0-4a3d-97fa-64705c34fcaa",
+      "slug": "avgyvt-krambl-bmla-svgym-w2ijbp",
+      "name": "עוגיות קראמבל במלא סוגים",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 20,
+      "base_price": 20,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783169490754-3s6q7.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/avgyvt-krambl-bmla-svgym-w2ijbp",
+      "categories": [],
+      "updated_at": "2026-07-04T12:52:39.498Z"
+    }
+  ]
 }
