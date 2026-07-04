@@ -363,7 +363,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "b628d47d-6127-47b7-abc2-d3bb3b38692b";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "b628d47d-6127-47b7-abc2-d3bb3b38692b";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -964,8 +964,8 @@
           </svg>
         </div>
         <div class="index-features-section__card-content">
-          <h3 class="index-features-section__card-title" >עוגיות שוקולד צ׳יפס&nbsp;</h3>
-          <p class="index-features-section__card-text" >מלאות שוקולד ואהבה</p>
+          <h3 class="index-features-section__card-title" style="cursor: text;">עוגיות שוקולד צ׳יפס&nbsp;</h3>
+          <p class="index-features-section__card-text" style="cursor: text;">מלאות שוקולד ואהבה</p>
         </div>
       </article><article class="index-features-section__card index-features-section__card--stagger-up" data-grid-item-index="1">
         <div class="index-features-section__card-image-area">
@@ -999,15 +999,15 @@
           </svg>
         </div>
         <div class="index-features-section__card-content">
-          <h3 class="index-features-section__card-title" >קראמבל במגוון טעמים&nbsp;</h3>
-          <p class="index-features-section__card-text" >טעמים לא צפויים שמפתיעים את החך –אוראו וסוכריות פיסטוק , שוקולד מריר עם מלח ים &nbsp;אטלנטי. חומרי גלם מובחרים שהופכים כל ביס למסע קולינרי קטן.</p>
+          <h3 class="index-features-section__card-title" style="">קראמבל במגוון טעמים&nbsp;</h3>
+          <p class="index-features-section__card-text" style="">טעמים לא צפויים שמפתיעים את החך –אוראו וסוכריות פיסטוק , שוקולד מריר עם מלח ים &nbsp;אטלנטי. חומרי גלם מובחרים שהופכים כל ביס למסע קולינרי קטן.</p>
         </div>
       </article>
 
       <!-- Card 3: Gift-Ready Joy -->
       <article class="index-features-section__card index-features-section__card--stagger-down" data-grid-item-index="3">
         <div class="index-features-section__card-image-area">
-          <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Beautifully wrapped cookie gift box with satin ribbon, kraft paper, and a handwritten tag, surrounded by scattered cookies and fresh flowers, Food &amp; Bakery" width="600" height="400" src="/assets/site-index-features-image-3.webp" alt="קופסת שי מהודרת של עוגיות מעוצבות" class="index-features-section__card-img" data-element-type="image" data-element-id="img-1783169562366-5tstmo2c2" >
+          <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="Beautifully wrapped cookie gift box with satin ribbon, kraft paper, and a handwritten tag, surrounded by scattered cookies and fresh flowers, Food &amp; Bakery" width="600" height="400" src="/assets/site-index-features-image-3.webp" alt="קופסת שי מהודרת של עוגיות מעוצבות" class="index-features-section__card-img" data-element-type="image" data-element-id="img-1783169562366-5tstmo2c2" style="">
           <!-- Sprinkle accent -->
           <svg class="index-features-section__sprinkle index-features-section__sprinkle--top-left" data-element-type="icon" data-icon-type="svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="6" cy="6" r="2.5" fill="var(--primary)" opacity="0.7"></circle>
@@ -1018,7 +1018,7 @@
           </svg>
         </div>
         <div class="index-features-section__card-content">
-          <h3 class="index-features-section__card-title" >מארז הפתעה<br>אם 18 טעמים רנדומליים&nbsp;</h3>
+          <h3 class="index-features-section__card-title" style="">מארז הפתעה<br>אם 18 טעמים רנדומליים&nbsp;</h3>
           
         </div>
       </article>
@@ -1093,7 +1093,7 @@
   </div>
 </section>
 
-<section data-band-index="3" class="index-benefits-section" data-layout-spec="בית-benefits">
+<section data-band-index="3" class="index-benefits-section" data-layout-spec="בית-benefits" id="index-benefits-section">
   <div class="index-benefits-section__container">
     
     <!-- Section Header -->
@@ -1106,23 +1106,16 @@
     <div class="index-benefits-section__grid">
       
       <!-- Card 1: For Hosts -->
-      <article class="index-benefits-section__card">
+      <article class="index-benefits-section__card" data-grid-item-index="0">
         <div class="index-benefits-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"></circle>
-            <path d="M16 20H32V36H16V20Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-            <path d="M20 20V16C20 13.7909 21.7909 12 24 12V12C26.2091 12 28 13.7909 28 16V20" stroke="currentColor" stroke-width="1.5"></path>
-            <circle cx="20" cy="28" r="1.5" fill="var(--primary)"></circle>
-            <circle cx="24" cy="28" r="1.5" fill="var(--secondary)"></circle>
-            <circle cx="28" cy="28" r="1.5" fill="var(--accent)"></circle>
-          </svg>
+          <i class="fas fa-" data-element-type="icon" data-element-id="zappy-temp-icon-1783170011669-m4piindjb" data-icon-type="fontawesome" style="font-size: 29px; color: rgb(255, 122, 174);"></i>
         </div>
-        <h3 class="index-benefits-section__card-title">לאירוח מושלם</h3>
-        <p class="index-benefits-section__card-text">מגשי עוגיות בעבודת יד שהופכים כל שולחן קפה לחוויה בלתי נשכחת. מבחר טעמים עשיר שמתאים לכל חך.</p>
+        <h3 class="index-benefits-section__card-title" style="">אין משלוחים</h3>
+        <p class="index-benefits-section__card-text" style="">מגשי עוגיות בעבודת יד שהופכים כל שולחן קפה לחוויה בלתי נשכחת. מבחר טעמים עשיר שמתאים לכל חך.</p>
       </article>
 
       <!-- Card 2: For Birthdays -->
-      <article class="index-benefits-section__card">
+      <article class="index-benefits-section__card" data-grid-item-index="1">
         <div class="index-benefits-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"></circle>
@@ -1145,7 +1138,7 @@
       </article>
 
       <!-- Card 3: For Thank-You Moments -->
-      <article class="index-benefits-section__card">
+      <article class="index-benefits-section__card" data-grid-item-index="2">
         <div class="index-benefits-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"></circle>
@@ -1162,7 +1155,7 @@
       </article>
 
       <!-- Card 4: For Gourmet Snackers -->
-      <article class="index-benefits-section__card">
+      <article class="index-benefits-section__card" data-grid-item-index="3">
         <div class="index-benefits-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"></circle>
@@ -1182,7 +1175,7 @@
 
     <!-- Gift Box Mockup Image -->
     <div class="index-benefits-section__image-wrapper">
-      <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-1" data-context="A premium, festive gift box filled with an assortment of colorful gourmet cookies, tied with a satin ribbon, shot on a soft vanilla cream background with scattered crumbs and a warm bakery atmosphere." width="1200" height="600" src="/assets/site-index-benefits-image-1.webp" alt="קופסת שי מפנקת עם מבחר עוגיות גורמה בעבודת יד" class="index-benefits-section__gift-image">
+      <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-1" data-context="A premium, festive gift box filled with an assortment of colorful gourmet cookies, tied with a satin ribbon, shot on a soft vanilla cream background with scattered crumbs and a warm bakery atmosphere." width="1200" height="600" src="/assets/site-index-benefits-image-1.webp" alt="קופסת שי מפנקת עם מבחר עוגיות גורמה בעבודת יד" class="index-benefits-section__gift-image" data-element-type="image" data-element-id="img-1783169562367-w6qh19akp" style="">
     </div>
 
   </div>
