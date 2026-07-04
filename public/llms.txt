@@ -1,0 +1,111 @@
+# Cookie girl — Generative Engine Optimization Map
+
+> An online cookie shop offering a wide variety of cookie types. The business revolves around selling baked goods, likely with a warm, sweet, and inviting atmosphere. The diverse selection suggests a focus on catering to different tastes and preferences.
+
+---
+
+## Pages
+
+### בית
+https://cookie-girl-b628d47d.zappy5.app
+מאפייה אונליין עם מבחר עוגיות ללא גלוטן בטעמים מנצחים. כל ביס מחזיר אתכם הביתה. הזמינו עכשיו ותיהנו ממתיקות אמיתית שמתאימה לכל רגע.
+
+### סיפורי טעמים
+https://cookie-girl-b628d47d.zappy5.app/flavor-stories
+צללו לסיפורי הטעמים של העוגיות שלנו: שילובים מפתיעים, מתכונים סודיים והשראה מתוקה. גלו איך נולדות עוגיות ללא גלוטן ששוברות שגרה.
+
+### מארזי מתנה
+https://cookie-girl-b628d47d.zappy5.app/gift-boxes
+הפתיעו את האהובים עם מארזי עוגיות ללא גלוטן בעיצוב מושקע. מתנה מושלמת לכל אירוע, עמוסה בטעמים שכולם אוהבים. הזמינו מארז חגיגי עוד היום.
+
+### אודות
+https://cookie-girl-b628d47d.zappy5.app/about
+הכירו את האנשים והתשוקה שמאחורי Cookie girl: מאפייה שמוקדשת לעוגיות ללא גלוטן באיכות שלא מתפשרת. בואו לשמוע איך הכל התחיל ולמה אנחנו אופים מהלב.
+
+### צור קשר
+https://cookie-girl-b628d47d.zappy5.app/contact
+רוצים להזמין עוגיות ללא גלוטן לאירוע או סתם להגיד שלום? צרו קשר עם Cookie girl ונחזור אליכם עם חיוך מתוק. ההרפתקה הבאה שלכם מתחילה פה.
+
+### Products
+https://cookie-girl-b628d47d.zappy5.app/products
+המוצרים שלנו - Cookie girl
+
+### Cart
+https://cookie-girl-b628d47d.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://cookie-girl-b628d47d.zappy5.app/checkout
+תשלום
+
+### Login
+https://cookie-girl-b628d47d.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://cookie-girl-b628d47d.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://cookie-girl-b628d47d.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://cookie-girl-b628d47d.zappy5.app/product/:slug
+פרטי המוצר - Cookie girl
+
+### Category
+https://cookie-girl-b628d47d.zappy5.app/category/:slug
+מוצרים - Cookie girl
+
+### תודה - Cookie girl
+https://cookie-girl-b628d47d.zappy5.app/thank-you
+Cookie girl - תודה - Cookie girl
+
+## Legal & Policy
+
+### Privacy Policy
+https://cookie-girl-b628d47d.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://cookie-girl-b628d47d.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://cookie-girl-b628d47d.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Cookie girl
+An online cookie shop offering a wide variety of cookie types. The business revolves around selling baked goods, likely with a warm, sweet, and inviting atmosphere. The diverse selection suggests a focus on catering to different tastes and preferences.
+
+## Services/Products
+- מכירת עוגיות
+
+## Target Audience
+- אוהבי עוגיות ברשת
+- אניני טעם בגורמה
+- רוכשי מתנות
+
+## Industry
+Food & Bakery
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://cookie-girl-b628d47d.zappy5.app/sitemap.xml
+- Robots: https://cookie-girl-b628d47d.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://cookie-girl-b628d47d.zappy5.app/llms-full.txt
+- Products (JSON): https://cookie-girl-b628d47d.zappy5.app/products.json
+- Products (Google Merchant RSS): https://cookie-girl-b628d47d.zappy5.app/product-feed.xml
